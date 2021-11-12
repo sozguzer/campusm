@@ -41,7 +41,8 @@
       "read": true,
       "write": {
         "users": [
-          "na::sozguzer"
+          "na::sozguzer",
+          "na::payton"
         ]
       }
     },
