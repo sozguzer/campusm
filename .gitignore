@@ -6,3 +6,4 @@
 #Ignore yarn error logs
 /**/node_modules/
 /**/yarn-error.log
+/**/.build
