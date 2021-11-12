@@ -1,0 +1,8 @@
+homepage:
+  menu:
+    replace:
+      - desc: Twitter Feed
+        screenName: twitter-feed
+        backgroundColor: "#32718d"
+        noLabel: false
+        textColor: "#ffffff"
