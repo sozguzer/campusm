@@ -13,7 +13,7 @@ export default class Screen extends React.Component {
     return (
       <Container>
         <VBox>
-          <h1> Koret 2</h1>
+        <img className={styles.heroImage} src="https://portal-na.campusm.exlibrisgroup.com/assets/UniversityofSanFrancisco/UniversityofSanFrancisco/images/koret.jpg" alt="people swimming in the pool" />    
           <ul className={styles.listLinks}>
             <li>
               <a href="https://www.usfca.edu/koret/fitness/group-exercise/schedule" title="Group Exercise At-a-glance">
@@ -39,24 +39,24 @@ export default class Screen extends React.Component {
                 <img src="https://portal-na.campusm.exlibrisgroup.com/assets/UniversityofSanFrancisco/UniversityofSanFrancisco/images/arrow.png" alt="arrow" className={styles.arrow} />
               </a>
             </li>
-          </ul>
-          
+          </ul>  
           <br />
           
           <div className={styles.twitterHeader}>
             KORET TWITTER
           </div>
-      
-          <Timeline
-            dataSource={{
-              sourceType: 'profile',
-              screenName: 'usfkoret'
-            }}
-            options={{
-              height: '420',
-              width: '90%'
-            }}
-          />
+          <div className={styles.timeline}>
+            <Timeline
+              dataSource={{
+                sourceType: 'profile',
+                screenName: 'usfkoret'
+              }}
+              options={{
+                height: '420',
+                width: '90%'
+              }}
+            />
+          </div>
         </VBox>
       </Container>
     );
