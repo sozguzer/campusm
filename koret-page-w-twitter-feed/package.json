@@ -40,8 +40,8 @@
     "access": {
       "write": {
         "users": [
-          "na::sozguzer",
-          "na::payton"
+          "na::payton",
+          "na::sozguzer"
         ]
       }
     },
