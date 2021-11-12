@@ -1,5 +1,5 @@
 {
-  "name": "@ombiel/exlib-twitter-feed",
+  "name": "@ombiel/koret-page-w-twitter-feed",
   "version": "1.0.0",
   "repository": "-",
   "license": "UNLICENSED",
@@ -38,7 +38,6 @@
   "ombiel": {
     "boilerplate": "@ombiel/aek-boilerplate@1.2.0-node14.3",
     "access": {
-      "read": true,
       "write": {
         "users": [
           "na::sozguzer",
