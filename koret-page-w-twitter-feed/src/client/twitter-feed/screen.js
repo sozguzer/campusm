@@ -22,13 +22,13 @@ export default class Screen extends React.Component {
               </a>
             </li>
             <li>
-              <a href="" title="Daily Exercise Schedule">
+              <a href="https://www.usfca.edu/" title="Daily Exercise Schedule">
                 Daily Exercise Schedule
                 <img src="https://portal-na.campusm.exlibrisgroup.com/assets/UniversityofSanFrancisco/UniversityofSanFrancisco/images/arrow.png" alt="arrow" className={styles.arrow} />
               </a>
             </li>
             <li>
-              <a href="" title="Clubs & Intramural Sports Schedule">
+              <a href="https://www.usfca.edu/" title="Clubs & Intramural Sports Schedule">
                 Clubs & Intramural Sports Schedule
                 <img src="https://portal-na.campusm.exlibrisgroup.com/assets/UniversityofSanFrancisco/UniversityofSanFrancisco/images/arrow.png" alt="arrow" className={styles.arrow} />
               </a>
